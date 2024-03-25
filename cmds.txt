@@ -1,0 +1,13 @@
+~$ mkdir localdir_psscripts
+~$ ls
+~/localdir_psscripts$ vi readme.md
+~/localdir_psscripts$ vi vmautostart.txt
+~/localdir_psscripts$ vi vmautostop.txt
+~/localdir_psscripts$ git init
+~/localdir_psscripts$ git add .
+~/localdir_psscripts$ git commit -m "first commit"
+~/localdir_psscripts$ git remote add origin https://github.com/naveensrepo0120/AzureVMAutomation.git
+~/localdir_psscripts$ git branch
+~/localdir_psscripts$ git push origin master
+~/localdir_psscripts$ git checkout -b commandsused
+~/localdir_psscripts$ vi cmds.txt
